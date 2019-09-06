@@ -1,0 +1,86 @@
+.container{
+  float: left;
+  padding-left: 20%;
+  left: 40%;
+  width: 45%;
+}
+#nome, #email, #mseg{
+  width: 100%;
+  line-height: 4ch;
+  margin-bottom: 1em;
+  display: block;
+  font-family: inherit;
+  font-size: 1em;
+}
+legend{
+  font-family: inherit;
+}
+select{
+  margin-bottom: 5%;
+}
+#etiquetaMseg{
+  font-family: "Open Sans Condensed";
+}
+
+/* #nome, #email, #mseg:hover, */
+  #nome:hover,
+  #nome:focus{
+  background-color: #ffff66;
+}
+  #email:hover,
+  #email:focus{
+  background-color:#ffff66;
+}
+  #mseg:hover,
+  #mseg:focus{
+  background-color: #ffff66;
+}
+input:invalid{
+  box-shadow: 0 0 3px 3px #cc0000;
+}
+
+  /* #nome:invalid{
+    box-shadow: 0 0 4px 4px #cc0000;
+  }
+  #email:invalid{
+    box-shadow: 0 0 4px #cc0000;
+  } */
+select[name="select"] {
+    display: inline;
+  }
+#texto-outro{
+  display: none;
+}
+option[value="valor3"]:checked~input{
+  display: inline;
+}
+  #mseg:invalid{
+    box-shadow: 0 0 4px #cc0000;
+  }
+/* #nome, #email, #mseg:hover:invalid,
+#nome, #email, #mseg:focus:invalid{
+  background-color: red;
+} */
+#botaoEnvia{
+  background-color: #3C1D3D;
+  position: relative;
+  float: right;
+  left: 1%;
+  /* left: 70%; */
+  width: 8em;
+  height: 2em;
+  padding: 1%;
+  font-family: "Open Sans condensed";
+  font-size: 1em;
+  color:white;
+  border-style: none;
+}
+#botaoEnvia:hover,
+#botaoEnvia:focus{
+  background-color:#8C1D3D;
+}
+
+.rodape-pagina{
+  position: absolute;
+  top: 90%;
+}
